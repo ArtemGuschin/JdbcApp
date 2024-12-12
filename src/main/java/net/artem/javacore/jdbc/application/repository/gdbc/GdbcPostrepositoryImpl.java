@@ -4,7 +4,13 @@ import net.artem.javacore.jdbc.application.model.Post;
 
 import java.util.List;
 
-public class GdbcPostrepository implements PostRepository{
+public class GdbcPostrepositoryImpl implements PostRepository {
+    static final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
+    static final String DATABASE_URL = "jdbc:mysql://localhost/proselyte_tutorials";
+
+    static final String USER = "root";
+    static final String PASSWORD = "root";
+
     @Override
     public Post getById(Long aLong) {
         return null;

@@ -1,7 +1,8 @@
-package net.artem.crudapp.model;
+package net.artem.javacore.jdbc.application.model;
 
 import lombok.*;
-import net.artem.crudapp.enums.PostStatus;
+
+import net.artem.javacore.jdbc.application.enums.PostStatus;
 
 import java.util.ArrayList;
 import java.util.Date;

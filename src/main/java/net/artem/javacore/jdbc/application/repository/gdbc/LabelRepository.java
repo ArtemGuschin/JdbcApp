@@ -1,6 +1,8 @@
-package net.artem.crudapp.repository;
+package net.artem.javacore.jdbc.application.repository.gdbc;
 
-import net.artem.crudapp.model.Label;
+
+import net.artem.javacore.jdbc.application.model.Label;
+import net.artem.javacore.jdbc.application.repository.GenericRepository;
 
 public interface LabelRepository extends GenericRepository<Label,Long> {
 }

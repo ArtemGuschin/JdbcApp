@@ -1,9 +1,8 @@
-package net.artem.crudapp.model;
+package net.artem.javacore.jdbc.application.model;
 
 import lombok.*;
-import net.artem.crudapp.enums.LabelStatus;
 
-import java.util.Objects;
+import net.artem.javacore.jdbc.application.enums.LabelStatus;
 
 
 @Data

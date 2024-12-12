@@ -1,8 +1,8 @@
-package net.artem.crudapp.repository;
+package net.artem.javacore.jdbc.application.repository;
 
 import java.util.List;
 
-public interface GenericRepository <T,ID>{
+public interface GenericRepository<T,ID>{
     T getById(ID id);
     List<T> getAll();
     T save (T t);
