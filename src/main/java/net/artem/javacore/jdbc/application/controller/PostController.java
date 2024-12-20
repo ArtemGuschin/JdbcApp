@@ -1,14 +1,14 @@
 package net.artem.javacore.jdbc.application.controller;
 
-import net.artem.javacore.jdbc.application.repository.gdbc.GdbcPostrepositoryImpl;
-import net.artem.javacore.jdbc.application.repository.gdbc.PostRepository;
+import net.artem.javacore.jdbc.application.repository.jdbc.JdbcPostRepositoryImpl;
+import net.artem.javacore.jdbc.application.repository.jdbc.PostRepository;
 
 public class PostController {
     private final PostRepository postRepository;
 
 
     public PostController() {
-        this.postRepository = new GdbcPostrepositoryImpl();
+        this.postRepository = new JdbcPostRepositoryImpl();
     }
 
     public PostController(PostRepository postRepository) {

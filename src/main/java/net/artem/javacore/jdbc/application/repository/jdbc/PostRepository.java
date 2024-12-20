@@ -1,4 +1,4 @@
-package net.artem.javacore.jdbc.application.repository.gdbc;
+package net.artem.javacore.jdbc.application.repository.jdbc;
 
 
 import net.artem.javacore.jdbc.application.model.Post;

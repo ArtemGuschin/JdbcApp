@@ -1,7 +1,9 @@
 package net.artem.javacore.jdbc.application.controller;
 
-import net.artem.javacore.jdbc.application.repository.gdbc.GdbcLabelRepositoryImpl;
-import net.artem.javacore.jdbc.application.repository.gdbc.LabelRepository;
+import net.artem.javacore.jdbc.application.enums.LabelStatus;
+import net.artem.javacore.jdbc.application.model.Label;
+import net.artem.javacore.jdbc.application.repository.jdbc.JdbcLabelRepositoryImpl;
+import net.artem.javacore.jdbc.application.repository.jdbc.LabelRepository;
 
 public class LabelController {
     private final LabelRepository labelRepository;
@@ -11,7 +13,11 @@ public class LabelController {
     }
 
     public LabelController() {
-        this.labelRepository = new GdbcLabelRepositoryImpl();
+        this.labelRepository = new JdbcLabelRepositoryImpl();
 
     }
+
+
+
+
 }

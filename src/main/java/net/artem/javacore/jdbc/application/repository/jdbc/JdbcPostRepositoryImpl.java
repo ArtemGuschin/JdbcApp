@@ -1,11 +1,10 @@
-package net.artem.javacore.jdbc.application.repository.gdbc;
+package net.artem.javacore.jdbc.application.repository.jdbc;
 
-import net.artem.javacore.jdbc.application.model.Label;
+import net.artem.javacore.jdbc.application.model.Post;
 
 import java.util.List;
 
-public class GdbcLabelRepositoryImpl implements LabelRepository {
-
+public class JdbcPostRepositoryImpl implements PostRepository {
     static final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
     static final String DATABASE_URL = "jdbc:mysql://localhost/proselyte_tutorials";
 
@@ -13,22 +12,22 @@ public class GdbcLabelRepositoryImpl implements LabelRepository {
     static final String PASSWORD = "root";
 
     @Override
-    public Label getById(Long aLong) {
+    public Post getById(Long aLong) {
         return null;
     }
 
     @Override
-    public List<Label> getAll() {
+    public List<Post> getAll() {
         return null;
     }
 
     @Override
-    public Label save(Label label) {
+    public Post save(Post post) {
         return null;
     }
 
     @Override
-    public Label update(Label label) {
+    public Post update(Post post) {
         return null;
     }
 

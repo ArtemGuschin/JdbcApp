@@ -1,10 +1,10 @@
-package net.artem.javacore.jdbc.application.repository.gdbc;
+package net.artem.javacore.jdbc.application.repository.jdbc;
 
 import net.artem.javacore.jdbc.application.model.Writer;
 
 import java.util.List;
 
-public class GdbcWriterRepositoryImpl implements WriterRepository {
+public class JdbcWriterRepositoryImpl implements WriterRepository {
 
     static final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
     static final String DATABASE_URL = "jdbc:mysql://localhost/proselyte_tutorials";

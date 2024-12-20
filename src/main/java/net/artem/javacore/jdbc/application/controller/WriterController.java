@@ -1,7 +1,7 @@
 package net.artem.javacore.jdbc.application.controller;
 
-import net.artem.javacore.jdbc.application.repository.gdbc.GdbcWriterRepositoryImpl;
-import net.artem.javacore.jdbc.application.repository.gdbc.WriterRepository;
+import net.artem.javacore.jdbc.application.repository.jdbc.JdbcWriterRepositoryImpl;
+import net.artem.javacore.jdbc.application.repository.jdbc.WriterRepository;
 
 public class WriterController {
     private final WriterRepository writerRepository;
@@ -12,7 +12,7 @@ public class WriterController {
 
     public WriterController() {
 
-        this.writerRepository = new GdbcWriterRepositoryImpl() ;
+        this.writerRepository = new JdbcWriterRepositoryImpl() ;
     }
 
 }
